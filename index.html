@@ -402,11 +402,11 @@ footer{padding:80px 24px 64px;text-align:center}
         <div class="field">
           <label>Drink preferences</label>
           <div class="choices">
-            <label class="choice"><input type="checkbox" name="drink" value="White wine"> White wine</label>
-            <label class="choice"><input type="checkbox" name="drink" value="Red wine"> Red wine</label>
-            <label class="choice"><input type="checkbox" name="drink" value="Sparkling wine"> Sparkling wine</label>
-            <label class="choice"><input type="checkbox" name="drink" value="Spirits (vodka, whiskey, cognac)"> Spirits (vodka, whiskey, cognac)</label>
-            <label class="choice"><input type="checkbox" name="drink" value="Non-alcoholic drinks"> Non-alcoholic drinks</label>
+            <label class="choice"><input type="checkbox" name="drink" value="Вино біле"> White wine</label>
+            <label class="choice"><input type="checkbox" name="drink" value="Вино червоне"> Red wine</label>
+            <label class="choice"><input type="checkbox" name="drink" value="Вино ігристе"> Sparkling wine</label>
+            <label class="choice"><input type="checkbox" name="drink" value="Міцні напої (горілка, віскі, коньяк)"> Spirits (vodka, whiskey, cognac)</label>
+            <label class="choice"><input type="checkbox" name="drink" value="Безалкогольні напої"> Non-alcoholic drinks</label>
           </div>
         </div>
 
@@ -472,12 +472,12 @@ const ENTRY = {
 };
 /* Text values must match your Google Form character by character */
 const VALUES = {
-  attendYes: 'Yes, I will definitely be there 🤍',
-  attendNo:  'Unfortunately, I won’t be able to make it',
-  coupleYes: 'Yes',
-  coupleNo:  'No',
-  kidsWith:  'I will bring children',
-  kidsWithout: 'I will not bring children'
+  attendYes: 'Так, обов\u2019язково буду 🤍',
+  attendNo:  'На жаль, не зможу',
+  coupleYes: 'Так',
+  coupleNo:  'Ні',
+  kidsWith:  'Буду з дітьми',
+  kidsWithout: 'Буду без дітей'
 };
 
 const form = document.getElementById('rsvpForm');
